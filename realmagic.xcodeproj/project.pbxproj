@@ -14,6 +14,8 @@
 		9195F2771CB2AD2100097C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9195F2751CB2AD2100097C0C /* LaunchScreen.storyboard */; };
 		9195F2821CB2AD2100097C0C /* realmagicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F2811CB2AD2100097C0C /* realmagicTests.m */; };
 		9195F28D1CB2AD2100097C0C /* realmagicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F28C1CB2AD2100097C0C /* realmagicUITests.m */; };
+		C4269A7E8E816EB13CF133ED /* libPods-realmagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81B4F4F42F35AAA1127B4F /* libPods-realmagic.a */; };
+		CDD0F2DE83D42D2B06316880 /* libPods-realmagicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB5CB94D94D14371A3C6B5D /* libPods-realmagicTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC164B18CABF88A7DFA058A /* Pods-realmagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmagicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realmagicTests/Pods-realmagicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E81B4F4F42F35AAA1127B4F /* libPods-realmagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B007F3573EF1D8996ECCB8 /* Pods-realmagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmagic/Pods-realmagic.release.xcconfig"; sourceTree = "<group>"; };
+		5FB5CB94D94D14371A3C6B5D /* libPods-realmagicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmagicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9195F2641CB2AD2100097C0C /* realmagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9195F2681CB2AD2100097C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9195F26A1CB2AD2100097C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		9195F2881CB2AD2100097C0C /* realmagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9195F28C1CB2AD2100097C0C /* realmagicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realmagicUITests.m; sourceTree = "<group>"; };
 		9195F28E1CB2AD2100097C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3DE59C6E015F0C7F4D9E0C /* Pods-realmagicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmagicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmagicTests/Pods-realmagicTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD60D7257E874FE065DDBDD6 /* Pods-realmagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realmagic/Pods-realmagic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4269A7E8E816EB13CF133ED /* libPods-realmagic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD0F2DE83D42D2B06316880 /* libPods-realmagicTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D27B7738C5AC10CF61F1F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD60D7257E874FE065DDBDD6 /* Pods-realmagic.debug.xcconfig */,
+				44B007F3573EF1D8996ECCB8 /* Pods-realmagic.release.xcconfig */,
+				2DC164B18CABF88A7DFA058A /* Pods-realmagicTests.debug.xcconfig */,
+				EC3DE59C6E015F0C7F4D9E0C /* Pods-realmagicTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		678BED7A2F22EB0AC0C5AC7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E81B4F4F42F35AAA1127B4F /* libPods-realmagic.a */,
+				5FB5CB94D94D14371A3C6B5D /* libPods-realmagicTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9195F25B1CB2AD2100097C0C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				9195F2801CB2AD2100097C0C /* realmagicTests */,
 				9195F28B1CB2AD2100097C0C /* realmagicUITests */,
 				9195F2651CB2AD2100097C0C /* Products */,
+				05D27B7738C5AC10CF61F1F0 /* Pods */,
+				678BED7A2F22EB0AC0C5AC7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9195F2911CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagic" */;
 			buildPhases = (
+				3D2DD31C13CA787394443543 /* Check Pods Manifest.lock */,
 				9195F2601CB2AD2100097C0C /* Sources */,
 				9195F2611CB2AD2100097C0C /* Frameworks */,
 				9195F2621CB2AD2100097C0C /* Resources */,
+				993B3D51B0905067E1068E38 /* Embed Pods Frameworks */,
+				50822BDEA8064A7A8D27D314 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9195F2941CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagicTests" */;
 			buildPhases = (
+				97D6AE0E9FCBD1D0834C615D /* Check Pods Manifest.lock */,
 				9195F2791CB2AD2100097C0C /* Sources */,
 				9195F27A1CB2AD2100097C0C /* Frameworks */,
 				9195F27B1CB2AD2100097C0C /* Resources */,
+				A4FE618404E2AD80DC20B9E6 /* Embed Pods Frameworks */,
+				A227B264742D6131CE80FA5C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +301,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D2DD31C13CA787394443543 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50822BDEA8064A7A8D27D314 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realmagic/Pods-realmagic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D6AE0E9FCBD1D0834C615D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		993B3D51B0905067E1068E38 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realmagic/Pods-realmagic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A227B264742D6131CE80FA5C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realmagicTests/Pods-realmagicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4FE618404E2AD80DC20B9E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realmagicTests/Pods-realmagicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9195F2601CB2AD2100097C0C /* Sources */ = {
@@ -400,6 +531,7 @@
 		};
 		9195F2921CB2AD2100097C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD60D7257E874FE065DDBDD6 /* Pods-realmagic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = realmagic/Info.plist;
@@ -411,6 +543,7 @@
 		};
 		9195F2931CB2AD2100097C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B007F3573EF1D8996ECCB8 /* Pods-realmagic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = realmagic/Info.plist;
@@ -422,6 +555,7 @@
 		};
 		9195F2951CB2AD2100097C0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC164B18CABF88A7DFA058A /* Pods-realmagicTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = realmagicTests/Info.plist;
@@ -434,6 +568,7 @@
 		};
 		9195F2961CB2AD2100097C0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3DE59C6E015F0C7F4D9E0C /* Pods-realmagicTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = realmagicTests/Info.plist;
