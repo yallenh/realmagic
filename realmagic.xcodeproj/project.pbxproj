@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9195F2691CB2AD2100097C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F2681CB2AD2100097C0C /* main.m */; };
+		9195F26C1CB2AD2100097C0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F26B1CB2AD2100097C0C /* AppDelegate.m */; };
+		9195F26F1CB2AD2100097C0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F26E1CB2AD2100097C0C /* ViewController.m */; };
+		9195F2741CB2AD2100097C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9195F2731CB2AD2100097C0C /* Assets.xcassets */; };
+		9195F2771CB2AD2100097C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9195F2751CB2AD2100097C0C /* LaunchScreen.storyboard */; };
+		9195F2821CB2AD2100097C0C /* realmagicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F2811CB2AD2100097C0C /* realmagicTests.m */; };
+		9195F28D1CB2AD2100097C0C /* realmagicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F28C1CB2AD2100097C0C /* realmagicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9195F27E1CB2AD2100097C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9195F25C1CB2AD2100097C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9195F2631CB2AD2100097C0C;
+			remoteInfo = realmagic;
+		};
+		9195F2891CB2AD2100097C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9195F25C1CB2AD2100097C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9195F2631CB2AD2100097C0C;
+			remoteInfo = realmagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9195F2641CB2AD2100097C0C /* realmagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9195F2681CB2AD2100097C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9195F26A1CB2AD2100097C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9195F26B1CB2AD2100097C0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9195F26D1CB2AD2100097C0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9195F26E1CB2AD2100097C0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9195F2731CB2AD2100097C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9195F2761CB2AD2100097C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9195F2781CB2AD2100097C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9195F27D1CB2AD2100097C0C /* realmagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9195F2811CB2AD2100097C0C /* realmagicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realmagicTests.m; sourceTree = "<group>"; };
+		9195F2831CB2AD2100097C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9195F2881CB2AD2100097C0C /* realmagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realmagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9195F28C1CB2AD2100097C0C /* realmagicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realmagicUITests.m; sourceTree = "<group>"; };
+		9195F28E1CB2AD2100097C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9195F2611CB2AD2100097C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195F27A1CB2AD2100097C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195F2851CB2AD2100097C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9195F25B1CB2AD2100097C0C = {
+			isa = PBXGroup;
+			children = (
+				9195F2661CB2AD2100097C0C /* realmagic */,
+				9195F2801CB2AD2100097C0C /* realmagicTests */,
+				9195F28B1CB2AD2100097C0C /* realmagicUITests */,
+				9195F2651CB2AD2100097C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9195F2651CB2AD2100097C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9195F2641CB2AD2100097C0C /* realmagic.app */,
+				9195F27D1CB2AD2100097C0C /* realmagicTests.xctest */,
+				9195F2881CB2AD2100097C0C /* realmagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9195F2661CB2AD2100097C0C /* realmagic */ = {
+			isa = PBXGroup;
+			children = (
+				9195F26A1CB2AD2100097C0C /* AppDelegate.h */,
+				9195F26B1CB2AD2100097C0C /* AppDelegate.m */,
+				9195F26D1CB2AD2100097C0C /* ViewController.h */,
+				9195F26E1CB2AD2100097C0C /* ViewController.m */,
+				9195F2731CB2AD2100097C0C /* Assets.xcassets */,
+				9195F2751CB2AD2100097C0C /* LaunchScreen.storyboard */,
+				9195F2781CB2AD2100097C0C /* Info.plist */,
+				9195F2671CB2AD2100097C0C /* Supporting Files */,
+			);
+			path = realmagic;
+			sourceTree = "<group>";
+		};
+		9195F2671CB2AD2100097C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9195F2681CB2AD2100097C0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9195F2801CB2AD2100097C0C /* realmagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9195F2811CB2AD2100097C0C /* realmagicTests.m */,
+				9195F2831CB2AD2100097C0C /* Info.plist */,
+			);
+			path = realmagicTests;
+			sourceTree = "<group>";
+		};
+		9195F28B1CB2AD2100097C0C /* realmagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9195F28C1CB2AD2100097C0C /* realmagicUITests.m */,
+				9195F28E1CB2AD2100097C0C /* Info.plist */,
+			);
+			path = realmagicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9195F2631CB2AD2100097C0C /* realmagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9195F2911CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagic" */;
+			buildPhases = (
+				9195F2601CB2AD2100097C0C /* Sources */,
+				9195F2611CB2AD2100097C0C /* Frameworks */,
+				9195F2621CB2AD2100097C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realmagic;
+			productName = realmagic;
+			productReference = 9195F2641CB2AD2100097C0C /* realmagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9195F27C1CB2AD2100097C0C /* realmagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9195F2941CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagicTests" */;
+			buildPhases = (
+				9195F2791CB2AD2100097C0C /* Sources */,
+				9195F27A1CB2AD2100097C0C /* Frameworks */,
+				9195F27B1CB2AD2100097C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9195F27F1CB2AD2100097C0C /* PBXTargetDependency */,
+			);
+			name = realmagicTests;
+			productName = realmagicTests;
+			productReference = 9195F27D1CB2AD2100097C0C /* realmagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9195F2871CB2AD2100097C0C /* realmagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9195F2971CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagicUITests" */;
+			buildPhases = (
+				9195F2841CB2AD2100097C0C /* Sources */,
+				9195F2851CB2AD2100097C0C /* Frameworks */,
+				9195F2861CB2AD2100097C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9195F28A1CB2AD2100097C0C /* PBXTargetDependency */,
+			);
+			name = realmagicUITests;
+			productName = realmagicUITests;
+			productReference = 9195F2881CB2AD2100097C0C /* realmagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9195F25C1CB2AD2100097C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yan-Hsiang Huang";
+				TargetAttributes = {
+					9195F2631CB2AD2100097C0C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4N284APFSC;
+					};
+					9195F27C1CB2AD2100097C0C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4N284APFSC;
+						TestTargetID = 9195F2631CB2AD2100097C0C;
+					};
+					9195F2871CB2AD2100097C0C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4N284APFSC;
+						TestTargetID = 9195F2631CB2AD2100097C0C;
+					};
+				};
+			};
+			buildConfigurationList = 9195F25F1CB2AD2100097C0C /* Build configuration list for PBXProject "realmagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9195F25B1CB2AD2100097C0C;
+			productRefGroup = 9195F2651CB2AD2100097C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9195F2631CB2AD2100097C0C /* realmagic */,
+				9195F27C1CB2AD2100097C0C /* realmagicTests */,
+				9195F2871CB2AD2100097C0C /* realmagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9195F2621CB2AD2100097C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9195F2771CB2AD2100097C0C /* LaunchScreen.storyboard in Resources */,
+				9195F2741CB2AD2100097C0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195F27B1CB2AD2100097C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195F2861CB2AD2100097C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9195F2601CB2AD2100097C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9195F26F1CB2AD2100097C0C /* ViewController.m in Sources */,
+				9195F26C1CB2AD2100097C0C /* AppDelegate.m in Sources */,
+				9195F2691CB2AD2100097C0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195F2791CB2AD2100097C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9195F2821CB2AD2100097C0C /* realmagicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195F2841CB2AD2100097C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9195F28D1CB2AD2100097C0C /* realmagicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9195F27F1CB2AD2100097C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9195F2631CB2AD2100097C0C /* realmagic */;
+			targetProxy = 9195F27E1CB2AD2100097C0C /* PBXContainerItemProxy */;
+		};
+		9195F28A1CB2AD2100097C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9195F2631CB2AD2100097C0C /* realmagic */;
+			targetProxy = 9195F2891CB2AD2100097C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9195F2751CB2AD2100097C0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9195F2761CB2AD2100097C0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9195F28F1CB2AD2100097C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9195F2901CB2AD2100097C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9195F2921CB2AD2100097C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = realmagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.realmagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9195F2931CB2AD2100097C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = realmagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.realmagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9195F2951CB2AD2100097C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = realmagicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.realmagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realmagic.app/realmagic";
+			};
+			name = Debug;
+		};
+		9195F2961CB2AD2100097C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = realmagicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.realmagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realmagic.app/realmagic";
+			};
+			name = Release;
+		};
+		9195F2981CB2AD2100097C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = realmagicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.realmagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = realmagic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9195F2991CB2AD2100097C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = realmagicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yahoo.realmagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = realmagic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9195F25F1CB2AD2100097C0C /* Build configuration list for PBXProject "realmagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9195F28F1CB2AD2100097C0C /* Debug */,
+				9195F2901CB2AD2100097C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9195F2911CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9195F2921CB2AD2100097C0C /* Debug */,
+				9195F2931CB2AD2100097C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9195F2941CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9195F2951CB2AD2100097C0C /* Debug */,
+				9195F2961CB2AD2100097C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9195F2971CB2AD2100097C0C /* Build configuration list for PBXNativeTarget "realmagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9195F2981CB2AD2100097C0C /* Debug */,
+				9195F2991CB2AD2100097C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9195F25C1CB2AD2100097C0C /* Project object */;
+}
