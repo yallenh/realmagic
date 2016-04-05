@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "RMStreamViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+
     self.window.backgroundColor = [UIColor whiteColor];
-    ViewController *vc = [[ViewController alloc] init];
+    // ViewController *vc = [[ViewController alloc] init];
+    RMStreamViewController *vc = [[RMStreamViewController alloc] init];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;

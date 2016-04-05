@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RMService.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    // [[RMService sharedInstance] requestWithMethod:RMRequestMethodGet url:@"https://news-app.abumedia.yql.yahoo.com/v1/topstory" params:nil responseDataKey:@"items.result"];
 }
 
 - (void)didReceiveMemoryWarning {

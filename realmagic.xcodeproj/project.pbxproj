@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912E0BE71CB3A9E1004B5881 /* RMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E0BE61CB3A9E1004B5881 /* RMService.m */; };
+		912E0BEC1CB3BBCB004B5881 /* RMStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E0BEB1CB3BBCB004B5881 /* RMStreamViewController.m */; };
+		912E0BF01CB3BFBB004B5881 /* RMNewsContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E0BEF1CB3BFBB004B5881 /* RMNewsContent.m */; };
+		912E0BF61CB3FDAA004B5881 /* RMStreamService.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E0BF51CB3FDAA004B5881 /* RMStreamService.m */; };
+		915B610A1CB417AA00767EAC /* RMNewsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B61091CB417AA00767EAC /* RMNewsImage.m */; };
 		9195F2691CB2AD2100097C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F2681CB2AD2100097C0C /* main.m */; };
 		9195F26C1CB2AD2100097C0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F26B1CB2AD2100097C0C /* AppDelegate.m */; };
 		9195F26F1CB2AD2100097C0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F26E1CB2AD2100097C0C /* ViewController.m */; };
@@ -40,6 +45,16 @@
 		2E81B4F4F42F35AAA1127B4F /* libPods-realmagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B007F3573EF1D8996ECCB8 /* Pods-realmagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmagic/Pods-realmagic.release.xcconfig"; sourceTree = "<group>"; };
 		5FB5CB94D94D14371A3C6B5D /* libPods-realmagicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmagicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912E0BE51CB3A9E1004B5881 /* RMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMService.h; path = Services/RMService.h; sourceTree = "<group>"; };
+		912E0BE61CB3A9E1004B5881 /* RMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMService.m; path = Services/RMService.m; sourceTree = "<group>"; };
+		912E0BEA1CB3BBCB004B5881 /* RMStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMStreamViewController.h; path = Components/RMStreamViewController.h; sourceTree = "<group>"; };
+		912E0BEB1CB3BBCB004B5881 /* RMStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMStreamViewController.m; path = Components/RMStreamViewController.m; sourceTree = "<group>"; };
+		912E0BEE1CB3BFBB004B5881 /* RMNewsContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMNewsContent.h; path = Stores/RMNewsContent.h; sourceTree = "<group>"; };
+		912E0BEF1CB3BFBB004B5881 /* RMNewsContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMNewsContent.m; path = Stores/RMNewsContent.m; sourceTree = "<group>"; };
+		912E0BF41CB3FDAA004B5881 /* RMStreamService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMStreamService.h; path = Services/RMStreamService.h; sourceTree = "<group>"; };
+		912E0BF51CB3FDAA004B5881 /* RMStreamService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMStreamService.m; path = Services/RMStreamService.m; sourceTree = "<group>"; };
+		915B61081CB417AA00767EAC /* RMNewsImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMNewsImage.h; path = Stores/RMNewsImage.h; sourceTree = "<group>"; };
+		915B61091CB417AA00767EAC /* RMNewsImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMNewsImage.m; path = Stores/RMNewsImage.m; sourceTree = "<group>"; };
 		9195F2641CB2AD2100097C0C /* realmagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9195F2681CB2AD2100097C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9195F26A1CB2AD2100097C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +121,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		912E0BE41CB3A7C0004B5881 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				912E0BE51CB3A9E1004B5881 /* RMService.h */,
+				912E0BE61CB3A9E1004B5881 /* RMService.m */,
+				912E0BF41CB3FDAA004B5881 /* RMStreamService.h */,
+				912E0BF51CB3FDAA004B5881 /* RMStreamService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		912E0BE91CB3BB5E004B5881 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				912E0BEA1CB3BBCB004B5881 /* RMStreamViewController.h */,
+				912E0BEB1CB3BBCB004B5881 /* RMStreamViewController.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		912E0BED1CB3BF3E004B5881 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				912E0BEE1CB3BFBB004B5881 /* RMNewsContent.h */,
+				912E0BEF1CB3BFBB004B5881 /* RMNewsContent.m */,
+				915B61081CB417AA00767EAC /* RMNewsImage.h */,
+				915B61091CB417AA00767EAC /* RMNewsImage.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
 		9195F25B1CB2AD2100097C0C = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +177,9 @@
 		9195F2661CB2AD2100097C0C /* realmagic */ = {
 			isa = PBXGroup;
 			children = (
+				912E0BED1CB3BF3E004B5881 /* Stores */,
+				912E0BE91CB3BB5E004B5881 /* Components */,
+				912E0BE41CB3A7C0004B5881 /* Services */,
 				9195F26A1CB2AD2100097C0C /* AppDelegate.h */,
 				9195F26B1CB2AD2100097C0C /* AppDelegate.m */,
 				9195F26D1CB2AD2100097C0C /* ViewController.h */,
@@ -402,7 +451,12 @@
 			files = (
 				9195F26F1CB2AD2100097C0C /* ViewController.m in Sources */,
 				9195F26C1CB2AD2100097C0C /* AppDelegate.m in Sources */,
+				912E0BE71CB3A9E1004B5881 /* RMService.m in Sources */,
+				912E0BF61CB3FDAA004B5881 /* RMStreamService.m in Sources */,
+				912E0BF01CB3BFBB004B5881 /* RMNewsContent.m in Sources */,
+				912E0BEC1CB3BBCB004B5881 /* RMStreamViewController.m in Sources */,
 				9195F2691CB2AD2100097C0C /* main.m in Sources */,
+				915B610A1CB417AA00767EAC /* RMNewsImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
