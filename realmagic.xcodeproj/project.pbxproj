@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912E0BE01CB38FB2004B5881 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E0BDF1CB38FB2004B5881 /* Dog.m */; };
+		912E0BE31CB3905A004B5881 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E0BE21CB3905A004B5881 /* Person.m */; };
 		9195F2691CB2AD2100097C0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F2681CB2AD2100097C0C /* main.m */; };
 		9195F26C1CB2AD2100097C0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F26B1CB2AD2100097C0C /* AppDelegate.m */; };
 		9195F26F1CB2AD2100097C0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195F26E1CB2AD2100097C0C /* ViewController.m */; };
@@ -40,6 +42,10 @@
 		2E81B4F4F42F35AAA1127B4F /* libPods-realmagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B007F3573EF1D8996ECCB8 /* Pods-realmagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realmagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-realmagic/Pods-realmagic.release.xcconfig"; sourceTree = "<group>"; };
 		5FB5CB94D94D14371A3C6B5D /* libPods-realmagicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realmagicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912E0BDE1CB38FB2004B5881 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = Models/Dog.h; sourceTree = "<group>"; };
+		912E0BDF1CB38FB2004B5881 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = Models/Dog.m; sourceTree = "<group>"; };
+		912E0BE11CB3905A004B5881 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Models/Person.h; sourceTree = "<group>"; };
+		912E0BE21CB3905A004B5881 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Models/Person.m; sourceTree = "<group>"; };
 		9195F2641CB2AD2100097C0C /* realmagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realmagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9195F2681CB2AD2100097C0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9195F26A1CB2AD2100097C0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +112,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		912E0BDD1CB38F7D004B5881 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				912E0BDE1CB38FB2004B5881 /* Dog.h */,
+				912E0BDF1CB38FB2004B5881 /* Dog.m */,
+				912E0BE11CB3905A004B5881 /* Person.h */,
+				912E0BE21CB3905A004B5881 /* Person.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		9195F25B1CB2AD2100097C0C = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +148,7 @@
 		9195F2661CB2AD2100097C0C /* realmagic */ = {
 			isa = PBXGroup;
 			children = (
+				912E0BDD1CB38F7D004B5881 /* Models */,
 				9195F26A1CB2AD2100097C0C /* AppDelegate.h */,
 				9195F26B1CB2AD2100097C0C /* AppDelegate.m */,
 				9195F26D1CB2AD2100097C0C /* ViewController.h */,
@@ -402,6 +420,8 @@
 			files = (
 				9195F26F1CB2AD2100097C0C /* ViewController.m in Sources */,
 				9195F26C1CB2AD2100097C0C /* AppDelegate.m in Sources */,
+				912E0BE31CB3905A004B5881 /* Person.m in Sources */,
+				912E0BE01CB38FB2004B5881 /* Dog.m in Sources */,
 				9195F2691CB2AD2100097C0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
